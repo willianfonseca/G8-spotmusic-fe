@@ -5,6 +5,7 @@ import "./App.css";
 function App() {
    	const [data, setData] = useState([]);
 
+    
 	useEffect(() => {
 		fetch("$BACKEND_URL")
 		 .then((res) => res.json())
